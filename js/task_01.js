@@ -68,30 +68,30 @@
     ///Задние 3
 
 
-    {
-        const total = +(prompt('Какая общая сумма ваших покупок'))
-        const pokypki = +(prompt('Сколько покупок вы совершили'))
-        const promo = prompt('Введите промо-код')
+    // {
+    //     const total = +(prompt('Какая общая сумма ваших покупок'))
+    //     const pokypki = +(prompt('Сколько покупок вы совершили'))
+    //     const promo = prompt('Введите промо-код')
         
-        const calculate = (total,pokypki,promo) => {
-            let itogo = total;
+    //     const calculate = (total,pokypki,promo) => {
+    //         let itogo = total;
     
-                if (pokypki > 10) { 
-                itogo *= 0.97;
-            }
-            if (total > 30000) {
-                itogo = itogo - (total - 30000)*0.15;
-            }
-            if (promo === "METHED") {
-                itogo *= 0.9;
-            }
-            else if (itogo > 2000 && promo === "G3H2Z1") {
-                itogo -= 500;
-            }
-            return itogo;
-        }
-        console.log(calculate(total, pokypki, promo))
-    }
+    //             if (pokypki > 10) { 
+    //             itogo *= 0.97;
+    //         }
+    //         if (total > 30000) {
+    //             itogo = itogo - (total - 30000)*0.15;
+    //         }
+    //         if (promo === "METHED") {
+    //             itogo *= 0.9;
+    //         }
+    //         else if (itogo > 2000 && promo === "G3H2Z1") {
+    //             itogo -= 500;
+    //         }
+    //         return itogo;
+    //     }
+    //     console.log(calculate(total, pokypki, promo))
+    // }
     
 
 
