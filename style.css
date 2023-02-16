@@ -1,0 +1,44 @@
+.wrapper {
+    margin-top: 50px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+    border: 1px solid gray;
+}
+
+.row {
+    display: flex;
+    column-gap: 15px;
+}
+
+.main-input {
+    margin-bottom: 25px;
+    height: 30px;
+    width: 450px;
+}
+
+.left {
+    flex-direction: column;
+}
+
+.right {
+    width: 100%;
+}
+
+.btn {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.result {
+    border: 1px solid red;
+    width: 60%;
+    height: 50px;
+    display: block;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    margin-top: 25px;
+}

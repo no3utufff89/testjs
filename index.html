@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script defer src="js/task_01.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <span>Задание 1</span>
+            <h1 class="title">
+                Простой обменник
+            </h1>
+            <div class="box">
+                <input type="number" class="money" placeholder="Введите стоимость покупки в ЕВРО" style="width: 250px; margin-bottom: 25px; height: 30px;">
+                <button class="push" style="height: auto;">Обмен валюты</button>
+            </div>
+            <div class="exchange-rates">
+                <div class="euro">
+                    1 евро =
+                    <span class="euroNumber">
+                        1.2
+                    </span> $
+                </div>
+                <div class="dollar">
+                    1 Доллар =
+                    <span class="dollarNumber">
+                        73
+                    </span> рубля
+                </div>
+            </div>
+            <div class="rezult">
+                <p>Результат обмена вашей суммы после перевода в Рубли&nbsp;<span class="exchange-result" style="color: blueviolet; font-weight: 700;"> </span></p>
+            </div>
+        </div>
+        <div class="container">
+            <h2>Задание 2</h2>
+            <input type="text" class="main-input" placeholder="Введите строку" value="Привет мир">
+
+            <div class="row">
+                <div class="left row">
+                    <button class="btn default-type" onclick="firstToUpperCase(mainInput)">Привет мир</button>
+                    <button class="btn lastUpper-type" onclick="lastToUpperCase(mainInput)">привет Мир</button>
+                    <button class="btn loverCase-type" onclick="allToLowerCase(mainInput)">привет мир</button>
+                    <button class="btn upperCase-type" onclick="allToUpperCase(mainInput)">ПРИВЕТ МИР</button>
+                    <button class="btn reverse-type" onclick="reverseString(mainInput)">рим тевирП</button>
+                </div>
+                <div class="right">
+                    Результат махинации над строкой:
+                    <span class="result">
+                        
+                    </span>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="container">
+            <h2>Задание 3 в консоле</h2>
+        </div>
+    </div>
+</body>
+
+</html>
